@@ -1,0 +1,31 @@
+/* pages/hello/hello.wxss */
+.container {
+  padding: 40rpx;
+  background-color: #f6f6f6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello-text {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40rpx;
+  text-align: center;
+}
+
+.btn {
+  background-color: #3cc51f;
+  color: white;
+  border: none;
+  border-radius: 50rpx;
+  padding: 20rpx 60rpx;
+  font-size: 32rpx;
+}
+
+.btn:active {
+  background-color: #2db815;
+} 

@@ -70,25 +70,6 @@ python app.py
 - `POST /api/auth/login` - 微信小程序登录
 - `GET /api/auth/verify` - 验证token
 
-### 商品相关
-- `GET /api/products` - 获取商品列表
-- `GET /api/products/:id` - 获取商品详情
-- `GET /api/products/search` - 搜索商品
-
-### 监测相关
-- `GET /api/monitors` - 获取监测列表
-- `POST /api/monitors` - 创建监测
-- `PUT /api/monitors/:id` - 更新监测
-- `DELETE /api/monitors/:id` - 删除监测
-
-### 用户相关
-- `GET /api/users/:id` - 获取用户信息
-- `PUT /api/users/:id` - 更新用户信息
-
-### 分类相关
-- `GET /api/categories` - 获取分类列表
-- `GET /api/categories/:id` - 获取分类详情
-
 ## 数据库模型
 
 ### User (用户表)
@@ -103,43 +84,6 @@ python app.py
 - last_login_at: 最后登录时间
 - login_count: 登录次数
 
-### Category (分类表)
-- id: 主键
-- name: 分类名称
-- icon: 分类图标
-- description: 分类描述
-- sort_order: 排序
-- status: 状态
-
-### Product (商品表)
-- id: 主键
-- name: 商品名称
-- description: 商品描述
-- image: 商品图片
-- price: 当前价格
-- original_price: 原价
-- category_id: 分类ID
-- brand: 品牌
-- model: 型号
-- url: 商品链接
-- store: 店铺名称
-- status: 商品状态
-- last_price_update: 最后价格更新时间
-- price_change_count: 价格变动次数
-
-### Monitor (监测表)
-- id: 主键
-- user_id: 用户ID
-- product_id: 商品ID
-- target_price: 目标价格
-- current_price: 当前价格
-- status: 监测状态
-- notification_enabled: 是否启用通知
-- check_interval: 检查间隔
-- last_check_at: 最后检查时间
-- triggered_at: 触发时间
-- expires_at: 过期时间
-- notes: 备注
 
 ## 开发说明
 

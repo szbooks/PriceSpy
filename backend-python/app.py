@@ -22,17 +22,13 @@ migrate = Migrate(app, db)
 CORS(app)
 
 # 导入模型
-from models import User, Product, Monitor, Category
+from models import User
 
 # 导入路由
-from routes import auth_bp, products_bp, monitors_bp, users_bp, categories_bp
+from routes import auth_bp
 
 # 注册蓝图
 app.register_blueprint(auth_bp, url_prefix='/api/auth')
-app.register_blueprint(products_bp, url_prefix='/api/products')
-app.register_blueprint(monitors_bp, url_prefix='/api/monitors')
-app.register_blueprint(users_bp, url_prefix='/api/users')
-app.register_blueprint(categories_bp, url_prefix='/api/categories')
 
 @app.route('/health')
 def health_check():

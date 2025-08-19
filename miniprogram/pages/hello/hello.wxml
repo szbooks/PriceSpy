@@ -1,5 +1,0 @@
-<!--pages/hello/hello.wxml-->
-<view class="container">
-  <view class="hello-text">{{message}}</view>
-  <button class="btn" bindtap="onTap">点击我</button>
-</view> 

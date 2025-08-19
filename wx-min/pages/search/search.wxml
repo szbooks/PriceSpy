@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="page-title">搜索</view>
+  <view class="empty-content">
+    搜索功能开发中...
+  </view>
+</view> 

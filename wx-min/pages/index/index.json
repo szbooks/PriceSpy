@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "PriceSpy",
+  "navigationBarBackgroundColor": "#2563EB",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#F9FAFB",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50
+} 

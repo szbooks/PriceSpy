@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="page-title">首页</view>
+  <view class="empty-content">
+    首页功能开发中...
+  </view>
+</view> 

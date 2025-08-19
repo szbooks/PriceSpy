@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="page-title">我的</view>
+  <view class="empty-content">
+    个人资料功能开发中...
+  </view>
+</view> 
